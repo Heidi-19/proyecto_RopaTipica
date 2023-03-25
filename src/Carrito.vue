@@ -1,9 +1,7 @@
 <script setup>
 //import navegador from './components/navegador.vue'
-import TablaVenta from './components/tablaventa.vue'
+
 import TablaCarrito from './components/tablacarrito.vue'
-import formulario from './components/formulario.vue'
-import metodopago from './components/metodopago.vue'
 import boton from './components/boton.vue'
 
 </script>
@@ -20,6 +18,7 @@ import boton from './components/boton.vue'
     <boton></boton>
     <boton></boton><br>
     <boton></boton>
+    <a href="./Venta.vue"></a>
     <p></p>
   </div>
 </template>
