@@ -1,6 +1,6 @@
 <template>
     <b-row>
-        <b-button>Button1</b-button>
+        <b-button></b-button>
     </b-row>
 </template>
 

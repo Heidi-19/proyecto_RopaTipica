@@ -1,6 +1,6 @@
 <template>
     <div>
-     <table class="table  table-hover table-bordered" style="width: 80%">
+     <table class="table table-hover table-bordered" style="width: 80%">
       <thead>
         <tr>
           <th>Artículo</th>
@@ -37,5 +37,5 @@
   </script>
    
   <style scoped>
-   
+
   </style>

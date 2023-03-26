@@ -1,6 +1,6 @@
 <template>
     <div>
-     <table class="table  table-hover table-bordered" style="width: 80%">
+     <table class="table table-hover table-bordered" style="width: 80%">
         <tr>
           <th>Artículo</th>
           <th>Cantidad</th>

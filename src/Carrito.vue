@@ -2,23 +2,168 @@
 //import navegador from './components/navegador.vue'
 
 import TablaCarrito from './components/tablacarrito.vue'
-import boton from './components/boton.vue'
+
 
 </script>
 
 <template>
-  <div id="app">   
+  <div class="carrito">   
     <!--<img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />-->
-      <h1>Carrito</h1><br>
+      <h1 id="titulo">Carrito</h1>
 
-    <h3>Articulos</h3><br>
+    <h3 id="subtitulo">Articulos</h3><br>
     
     <!--<navegador></navegador>-->
-    <TablaCarrito></TablaCarrito><br>
-    <boton></boton>
-    <boton></boton><br>
-    <boton></boton>
-    <a href="./Venta.vue">Venta</a>
+    <TablaCarrito class="tabla"></TablaCarrito><br>
+    <button id="boton1" class="boton">Quitar artículo de la lista</button>
+    <button id="boton2" class="boton">Agregar nuevo artículo</button>
+    <button id="boton3" class="boton1">Continuar<br>al pago</button><br><br><br>
+
     <p></p>
   </div>
 </template>
+
+<style>
+  .boton{
+    border: 1px solid;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    background-color: #00b5ff;
+    text-align: center;
+    padding: 50 50px;
+    position: flex;
+    left: 16%;
+    width: 190px;
+    
+    border-radius: 10px;
+    justify-content: space-between;
+    
+  }
+  .boton1{
+    border: 1px solid;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    background-color: #00b5ff;
+    text-align: center;
+    padding: 50 50px;
+    position: flex;
+    left: 44%;
+    width: 100px;
+    top: -12px;
+    border-radius: 10px;
+    
+
+
+  }
+
+  .carrito{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #titulo{
+    font-size: 50px;
+    color: black;
+    padding-bottom: 0px;
+    left: 0%;
+    text-align: center;
+  }
+  #subtitulo{
+    font-size: 30px;
+    color: black;
+    padding-top: 80px;
+    padding-bottom: 20px;
+  }
+
+  #boton1{
+    background-color: #00b5ff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    height: 30px;
+    top: 0%;
+
+
+  }
+  #boton2{
+    background-color: #00b5ff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    height: 30px;
+  }
+  
+  .tabla{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    width: 800px;
+    padding-bottom: 0px;
+    flex-wrap: wrap;
+    
+  }
+
+  .carrito{
+    display: grid;
+    background-color:limegreen;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+   
+
+
+  }
+
+  #titulo{
+    font-size: 50px;
+    color: black;
+
+  }   
+  #subtitulo{
+    font-size: 30px;
+    position: relative;
+    left: 0%;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    text-align: start;
+  }
+
+  #boton1{
+    background-color: #00b5ff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+  }
+  #boton2{
+    background-color: #00b5ff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    left: 480px;
+    height: auto;
+    top: -25px;
+
+  }
+  #boton3{
+    background-color: #00b5ff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    height: auto;
+    
+  }
+</style>
