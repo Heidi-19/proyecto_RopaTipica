@@ -11,4 +11,5 @@ import tabla from './components/tabla.vue'
     <navegador></navegador>
    <tabla></tabla>
       </div>
+      <a href="Carrito.vue">Carrito</a>
       </template>

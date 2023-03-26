@@ -18,7 +18,7 @@ import boton from './components/boton.vue'
     <boton></boton>
     <boton></boton><br>
     <boton></boton>
-    <a href="./Venta.vue"></a>
+    <a href="./Venta.vue">Venta</a>
     <p></p>
   </div>
 </template>
