@@ -21,7 +21,8 @@ export default {
           <navbar></navbar>
           <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
           <h1>Esto es un mensaje</h1>
-          <a href="Carrito.vue">Carrito</a>
+          <router-view></router-view>
+          <router-link to="/Carrito" exact-path>Ir a Carrito</router-link>
           <tabla></tabla>
         </div>
     </div>

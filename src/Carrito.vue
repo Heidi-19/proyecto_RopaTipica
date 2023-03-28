@@ -21,6 +21,8 @@ import TablaCarrito from './components/tablacarrito.vue'
 
     <p></p>
   </div>
+  <router-view></router-view>
+  <router-link to="/Venta" exact-path>Ir a Venta</router-link>
 </template>
 
 <style>

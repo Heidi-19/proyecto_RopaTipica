@@ -11,7 +11,7 @@ export default {
   // Define los datos de la aplicación
   data() {
     return {
-      loggedIn: false // Indica si el usuario está autenticado o no
+      loggedIn: true // Indica si el usuario está autenticado o no
     }
   },watch: {
     // Navega a la ruta "/hola" si el usuario está autenticado
