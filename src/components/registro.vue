@@ -1,7 +1,7 @@
 <template>
     <div class="registro">
       <h2>Registro de Usuario</h2>
-      <form @submit.prevent="register">
+      <form @submit.prevent="register"> 
         <div class="form-group">
           <label for="nombre">Nombre</label>
           <input type="text" class="form-control" id="nombre" v-model="nombre" required>

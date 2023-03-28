@@ -13,7 +13,7 @@
           <button type="submit" class="btn btn-primary">Iniciar sesión</button>
           <button type="button" class="btn btn-link" @click="mostrarRegistroFunc()">Registrarse</button>
         </form>
-        <div class="mt-3">
+        <div class="mt-3"> 
           <registro v-if="mostrarRegistro"  @submit.prevent="login" @registroComp="registroCompletado = $event"></registro>
         </div>
       </div>
