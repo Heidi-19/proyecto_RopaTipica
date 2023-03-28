@@ -1,6 +1,6 @@
 <template>
     <div>
-     <table class="table table-hover table-bordered" style="width: 80%">
+     <table class="table table-hover table-bordered" id="tabla" style="width: 80%">
       <thead>
         <tr>
           <th>Artículo</th>
@@ -37,5 +37,8 @@
   </script>
    
   <style scoped>
-
+  #tabla{
+    background-color: aliceblue;
+    border-color:blue;
+  }
   </style>
