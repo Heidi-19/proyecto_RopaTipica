@@ -17,7 +17,7 @@ import TablaCarrito from './components/tablacarrito.vue'
     <TablaCarrito class="tabla"></TablaCarrito><br>
     <button id="boton1" class="boton">Quitar artículo de la lista</button>
     <button id="boton2" class="boton">Agregar nuevo artículo</button>
-    <button id="boton3" class="boton1">Continuar<br>al pago</button><br><br><br>
+    <button id="boton3" class="boton1">Continuar al pago</button><br><br><br>
 
     <p></p>
   </div>
@@ -36,11 +36,10 @@ import TablaCarrito from './components/tablacarrito.vue'
     position: flex;
     left: 16%;
     width: 190px;
-    
     border-radius: 10px;
     justify-content: space-between;
-    
   }
+  
   .boton1{
     border: 1px solid;
     font-size: 15px;
@@ -51,13 +50,10 @@ import TablaCarrito from './components/tablacarrito.vue'
     text-align: center;
     padding: 50 50px;
     position: flex;
-    left: 44%;
-    width: 100px;
-    top: -12px;
+    left: 42.4%;
+    width: 150px;
+    top: -54px;
     border-radius: 10px;
-    
-
-
   }
 
   .carrito{
@@ -73,6 +69,7 @@ import TablaCarrito from './components/tablacarrito.vue'
     left: 0%;
     text-align: center;
   }
+
   #subtitulo{
     font-size: 30px;
     color: black;
@@ -85,30 +82,35 @@ import TablaCarrito from './components/tablacarrito.vue'
     align-items: center;
     justify-content: center;
     text-align: center;
-    
-    height: 30px;
-    top: 0%;
-
-
+    height: auto;
+    top: 1.4px;
   }
+
   #boton2{
     background-color: #00b5ff;
     align-items: center;
     justify-content: center;
     text-align: center;
-    
-    height: 30px;
+    left: 650px;
+    height: auto;
+    top: -26.4px;
   }
   
+  #boton3{
+    background-color: #00b5ff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+  }
+
   .tabla{
     justify-content: center;
     display: flex;
     text-align: center;
-    font-size: 20px;
-    width: 800px;
-    padding-bottom: 0px;
+    width: 1000px;
     flex-wrap: wrap;
-    
+    font-size: 20px;
   }
 
   .carrito{
@@ -121,16 +123,13 @@ import TablaCarrito from './components/tablacarrito.vue'
     padding-top: 50px;
     padding-bottom: 20px;
     flex-wrap: wrap;
-   
-
-
   }
 
   #titulo{
     font-size: 50px;
     color: black;
+  }
 
-  }   
   #subtitulo{
     font-size: 30px;
     position: relative;
@@ -140,30 +139,4 @@ import TablaCarrito from './components/tablacarrito.vue'
     text-align: start;
   }
 
-  #boton1{
-    background-color: #00b5ff;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: auto;
-  }
-  #boton2{
-    background-color: #00b5ff;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    left: 480px;
-    height: auto;
-    top: -25px;
-
-  }
-  #boton3{
-    background-color: #00b5ff;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-
-    height: auto;
-    
-  }
 </style>

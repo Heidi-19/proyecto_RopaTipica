@@ -12,7 +12,7 @@ import metodopago from './components/metodopago.vue'
       Venta
     </h1>
     <h3 id="subtitulo">
-      Articulos <br> a pagar:
+      Articulos a pagar:
     </h3>
     <TablaVenta class="tabla"></TablaVenta>
     <h5 class="texto" id="texto1">Fecha de<br>compra: 24/03/2023</h5>
@@ -22,11 +22,11 @@ import metodopago from './components/metodopago.vue'
         Impuesto: $100</h6><br><br>
         <div>
     <h6 class="texto" id="texto3">Detalles de envío (Aplica impuesto extra a envios internacionales)</h6>
-        <formulario></formulario>
+        <formulario id="formulario"></formulario>
       </div>
     <div>
       <h6 class="texto" id="texto4">Método de pago</h6>
-      <metodopago id="metodopago"></metodopago>
+      <metodopago class="metodopago"></metodopago>
     </div>
   </div>
 </template>
@@ -93,9 +93,10 @@ import metodopago from './components/metodopago.vue'
       border-radius: 10px;
   }
 
-  #metodopago{
-      align-items: center;
-      
+  .metodopago{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
   }
 
   .venta{
@@ -124,9 +125,7 @@ import metodopago from './components/metodopago.vue'
     text-align: center;
     font-size: 20px;
     width: 800px;
-    padding-bottom: 0px;
     flex-wrap: wrap;
-    
   }
 
   .venta{
@@ -139,9 +138,6 @@ import metodopago from './components/metodopago.vue'
     padding-top: 50px;
     padding-bottom: 20px;
     flex-wrap: wrap;
-   
-
-
   }
 
   #titulo{
@@ -156,5 +152,13 @@ import metodopago from './components/metodopago.vue'
     padding-top: 80px;
     padding-bottom: 20px;
     text-align: start;
+  }
+
+  #formulario{
+    top:-40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 </style>
