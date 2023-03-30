@@ -1,11 +1,11 @@
 <template>
-    <b-button class="boton" id="paypal">Paypal</b-button>
+    <b-button class="boton2" id="paypal">Paypal</b-button>
     <br><br>
-    <b-button class="boton" id="tarjeta-c">Tarjeta de Crédito</b-button>
+    <b-button class="boton2" id="tarjeta-c">Tarjeta de Crédito</b-button>
     <br><br>
-    <b-button class="boton" id="tarjeta-d">Tarjeta de Débito</b-button>
+    <b-button class="boton2" id="tarjeta-d">Tarjeta de Débito</b-button>
     <br><br>
-    <b-button class="boton" id="deposito">Depósito</b-button>
+    <b-button class="boton2" id="deposito">Depósito</b-button>
     <br><br>
 </template>
 
@@ -14,7 +14,7 @@
 </script>
 
 <style>
-    .boton{
+    .boton2{
         border: 1px solid;
         font-size: 15px;
         color: #fff;

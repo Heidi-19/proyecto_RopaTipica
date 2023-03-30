@@ -34,14 +34,14 @@ import metodopago from './components/metodopago.vue'
   .texto{
 
     font-size: 15px;
-    color: #fff;
+    color: #000;
     text-decoration: none;
     font-family: sans-serif;
 
     text-align: start;
     padding: 50 50px;
     position: flex;
-    left: -25%;
+    left: -20%;
     top: -36px;
     width: auto;
     
@@ -52,7 +52,7 @@ import metodopago from './components/metodopago.vue'
   #texto1{
 
     font-size: 15px;
-    color: #fff;
+    color: #000;
     text-decoration: none;
     font-family: sans-serif; 
     padding: 50 50px;
@@ -62,7 +62,7 @@ import metodopago from './components/metodopago.vue'
   #texto2{
       
       font-size: 15px;
-      color: #fff;
+      color: #000;
       text-decoration: none;
       font-family: sans-serif; 
       padding: 50 50px;
@@ -73,7 +73,7 @@ import metodopago from './components/metodopago.vue'
   #texto3{
       
       font-size: 15px;
-      color: #fff;
+      color: #000;
       text-decoration: none;
       font-family: sans-serif; 
       padding: 50 50px;
@@ -84,7 +84,7 @@ import metodopago from './components/metodopago.vue'
   #texto4{
       
       font-size: 15px;
-      color: #fff;
+      color: #000;
       text-decoration: none;
       font-family: sans-serif; 
       padding: 50 50px;
@@ -122,6 +122,7 @@ import metodopago from './components/metodopago.vue'
   .tabla{
     justify-content: center;
     display: flex;
+    border-color:blue;
     text-align: center;
     font-size: 20px;
     width: 800px;
@@ -130,7 +131,7 @@ import metodopago from './components/metodopago.vue'
 
   .venta{
     display: grid;
-    background-color:limegreen;
+
     justify-content: center;
     align-items: center;
     padding-left: 50px;

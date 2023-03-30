@@ -1,8 +1,9 @@
 <template>
     <div>
         <form class="formulario">
+      
       <div class="prin">
-      <label for="pais" class="pais">País: </label>
+      <label for="`type-${type}`" class="pais">País: </label>
       <select id="pais" class="pais">
         <option value="">Selecciona un país</option>
         <option v-for="pais in paises" :value="pais">{{ pais }}</option>
@@ -52,6 +53,7 @@
     <label>Costo de envío: </label>
     <input value="" type="text">
   </div>
+
     </form>  
   </div>
 </template>
