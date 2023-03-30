@@ -2,6 +2,7 @@
   <div class="pagina-inicio mx-auto">
       <div class="container">
         <form v-if="!mostrarRegistro" @submit.prevent="login">
+          <h2>Inicio de sesión</h2>
           <div class="form-group">
             <label for="email">Correo electrónico</label>
             <input type="email" class="form-control" id="email" v-model="email" placeholder="correo@gmail.com" required>

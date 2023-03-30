@@ -2,30 +2,37 @@
 //import navegador from './components/navegador.vue'
 
 import TablaCarrito from './components/tablacarrito.vue'
-
-
 </script>
+
 
 <template>
   <div class="carrito">   
+    
     <!--<img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />-->
       <h1 id="titulo">Carrito</h1>
 
     <h3 id="subtitulo">Articulos</h3><br>
     
     <!--<navegador></navegador>-->
-    <TablaCarrito class="tabla"></TablaCarrito><br>
-    <button id="boton1" class="boton">Quitar artículo de la lista</button>
-    <button id="boton2" class="boton">Agregar nuevo artículo</button>
-    <button id="boton3" class="boton1">Continuar al pago</button><br><br><br>
-
+    <TablaCarrito class="tabla" striped></TablaCarrito><br>
+    <b-button id="boton1" class="boton" variant="primary">Quitar artículo de la lista</b-button>
+    <b-button id="boton2" class="boton" variant="primary">Agregar nuevo artículo</b-button>
+    <b-button id="boton3" pill variant="outline-secondary" class="boton1"><router-link to="/Venta" exact-path>Continuar al pago</router-link></b-button><br><br><br>
+    <router-link to="/menu" exact-path>Inicio</router-link>
     <p></p>
+    
+    <router-view></router-view>
+    
   </div>
-  <router-view></router-view>
-  <router-link to="/Venta" exact-path>Ir a Venta</router-link>
+  
 </template>
 
 <style>
+* {
+  margin: 0;
+  padding: 0;
+}
+
   .boton{
     border: 1px solid;
     font-size: 15px;
@@ -36,7 +43,7 @@ import TablaCarrito from './components/tablacarrito.vue'
     text-align: center;
     padding: 50 50px;
     position: flex;
-    left: 16%;
+    left: 2%;
     width: 190px;
     border-radius: 10px;
     justify-content: space-between;
@@ -117,7 +124,6 @@ import TablaCarrito from './components/tablacarrito.vue'
 
   .carrito{
     display: grid;
-    background-color:limegreen;
     justify-content: center;
     align-items: center;
     padding-left: 50px;

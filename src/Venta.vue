@@ -27,10 +27,30 @@ import metodopago from './components/metodopago.vue'
     <div>
       <h6 class="texto" id="texto4">Método de pago</h6>
       <metodopago class="metodopago"></metodopago>
+      <b-button class="botons"><router-link to="/menu" exact-path>Comprar</router-link></b-button>
+      
+      <router-view></router-view>
     </div>
   </div>
 </template>
 <style>
+  .botons{
+    border: 1px solid;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    background-color: #00b5ff;
+    text-align: center;
+    padding: 50 50px;
+    display: flex;
+    left: 42%;
+    top:-202px;
+    width: 70px;
+    border-radius: 10px;
+    justify-content: center;
+  }
+
   .texto{
 
     font-size: 15px;

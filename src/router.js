@@ -5,7 +5,7 @@ import Venta from "./Venta.vue"
 
 const routes = [
     {
-        name: 'list',
+        name: 'Inicio',
         path: '/menu',
         component: App
     },
@@ -23,7 +23,7 @@ const routes = [
 
 const router = createRouter({
     history: createWebHistory(),
-    routes: routes
+    routes:routes
 })
 
 export default router

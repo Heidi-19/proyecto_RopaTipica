@@ -16,7 +16,11 @@
                                                 <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                                         </li>
                                         <li class="nav-item">
-                                                <a class="nav-link" href="#">Proyectos</a>
+                                                <div class="container">
+                                                
+                                                </div>
+                                                <a class="nav-link">
+                                                <router-link to="/Carrito" exact-path>Carrito</router-link></a>
                                         </li>
                                         <li class="nav-item dropdown">
                                                 <a class="nav-link dropdown-toggle" href="#" role="button"
@@ -40,9 +44,15 @@
                                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                                         <button class="btn btn-outline-success" type="submit">Search</button>
                                 </form>
+                                <router-view></router-view>
                         </div>
                 </div>
         </nav>
 
 </div>
 </template> 
+
+<style>
+        
+
+</style>
