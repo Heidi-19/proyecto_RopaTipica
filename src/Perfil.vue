@@ -201,6 +201,9 @@ Copiar esto
     margin-bottom: 0.5rem;
 }
 
+.section-perfil-usuario{
+    background-color: #fff;
+}
 .seccion-perfil-usuario .perfil-usuario-body .texto {
     color: #848484;
     font-size: 0.95em;
